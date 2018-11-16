@@ -1,0 +1,250 @@
+
+/*! ------------------------------------------ VIDEO ------------------------------------------ */
+video {
+    display: block;
+    z-index: -100;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    width: auto;
+    height: auto;
+    background: url("../img/camera.MOV") no-repeat;
+    background-size: cover;
+    /* opacity: 0.75; */
+}
+
+
+
+
+
+/*! ------------------------------------------ HOMEPAGE ------------------------------------------ */
+
+/*! Homepage text */
+
+.label {
+	background-color: rgba(255, 255, 255, 0.8);
+	opacity: .8;
+	opacity: inherit;
+	padding: 20px;
+	color: #011ac2;
+
+
+}
+
+.title_super {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 150px;
+	font-weight: 200;
+	color: white;
+}
+
+.subtitle_super {
+	font-family: 'Roboto Slab', monospace;
+	font-weight: 100;
+  font-size: 18px;
+	color: white;
+	display: block;
+}
+
+.testo-fisso {
+    font-style: "Roboto Slab";
+    font-size: 0.8em;
+    color: #DBF0F4;
+}
+
+.cap1 {
+    font-size: 2em;
+    font-family: 'Playfair Display';
+    color: black;
+}
+
+/*!  homepage structure  */
+
+.homepage {
+	height: 190vh;
+	position: relative;
+	text-align: center;
+}
+
+.intro {
+  height: 75vh;
+	position: relative;
+	text-align: center;
+  margin-top:50vh;
+}
+
+.description {
+  height: 50vh;
+	position: relative;
+	text-align: center;
+  margin-bottom:30vh;
+}
+
+#pattern {
+	width: auto;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/rompighiaccio.jpg);
+}
+
+.fisso-destra {
+    position: fixed;
+    padding: 1em;
+    max-width: 12.5em;
+    top: 0;
+    right: 0;
+    text-align: right;
+    width:100px;
+    height: 100px;
+    background-image: url(../img/rompighiaccio.jpg);
+}
+
+.fisso-sinistra {
+    position: fixed;
+    padding: 1em;
+    max-width: 20em;
+    top: 1em;
+    left: 1em;
+    text-align: left;
+}
+
+.foto-tela {
+    padding: 1em;
+    top: 0;
+    right: 0;
+    width: 100vh;
+    height: auto;
+    background-image: url(../img/tela.jpg);
+}
+
+
+/*! --------------------------------- BACKGROUND SECTION COLOR --------------------------------- */
+
+#background_lightblue {
+	background-color: #DBF0F4;
+  padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#headline {
+	background-color: #DBF0F4;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+#primocap {
+	background-color: #DBF0F4;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+/*! ------------------------------------------ TEXT --------------------------------------------- */
+
+
+/*! Testi affiancati */
+
+.text_paragraph {
+	font-family: 'Roboto Slab';
+	text-align: justify;
+  font-weight: 100;
+	color: #DBF0F4;
+	font-size: 2vh;
+	line-height: 1.7;
+}
+
+.paragrafo {
+	font-family: 'Roboto Slab';
+	text-align: left;
+  font-weight: 100;
+	color: black;
+	font-size: 1.2vh;
+	line-height: 1.7;
+  margin: 30px;
+  column-count: 2;
+  column-gap: 80px;
+  padding-bottom: 30px;
+}
+
+
+
+
+/*! --------------------------------- POP UP --------------------------------- */
+
+.popover-body {
+    padding-left: 10px;
+	padding-right:10px;
+	text-align: left;
+	margin:auto;
+    color: #011AC2;
+    border: white;
+
+}
+
+.pop_appareance_white {
+  font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: #011ac2;
+	background: white;
+	border: none;
+	border-radius: 0;
+	line-height: 0.4;
+    cursor: pointer;
+
+}
+.pop_appareance_white:hover {
+  font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+    color: #011ac2;
+	border: none;
+	border-radius: 0;
+	line-height: 0.4;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.pop_appareance_blue {
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: white;
+	border: none;
+    background: #011ac2;
+	border-radius: 0;
+	line-height: 0.4;
+    transition: none;
+    cursor: pointer;
+}
+
+.pop_appareance_blue:hover {
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: white;
+	border: none;
+    background: #011ac2;
+	border-radius: 0;
+	line-height: 0.4;
+    transition: none;
+    cursor: pointer;
+    opacity: 1
+}
+
+
+
+
+/*! ------------------------------------------ NAVBAR ------------------------------------------ */
+
+#appearance {
+	background-color: #011ac2;
+}
+
+#link_appearance_nav {
+	font-family: 'Inconsolata', monospace;
+	font-size: 12pt;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
