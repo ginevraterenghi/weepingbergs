@@ -1,18 +1,23 @@
+@font-face {
+	font-family: ariah;
+	src: url(../assets/font/ariah.ttf);
+}
 
 /*! ------------------------------------------ VIDEO ------------------------------------------ */
+
 video {
-    display: block;
-    z-index: -100;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    /* min-width: 100%;
+	display: block;
+	z-index: -100;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	/* min-width: 100%;
     min-height: 100%; */
-    width: auto;
-    height: auto;
-    background: url("../img/camera.MOV") no-repeat;
-    background-size: cover;
-    /* opacity: 0.75; */
+	width: auto;
+	height: auto;
+	background: url("../img/camera.MOV") no-repeat;
+	background-size: cover;
+	/* opacity: 0.75; */
 }
 
 
@@ -41,23 +46,26 @@ video {
 }
 
 .subtitle_super {
-	font-family: 'Roboto Slab', monospace;
+	font-family: 'Helvetica';
 	font-weight: 100;
-  font-size: 18px;
+	font-size: 24px;
 	color: white;
 	display: block;
+	margin-top: 30px;
 }
 
 .testo-fisso {
-    font-style: "Roboto Slab";
-    font-size: 0.8em;
-    color: #DBF0F4;
+	font-style: "Roboto Slab";
+	font-size: 0.8em;
+	color: #DBF0F4;
 }
 
 .cap1 {
-    font-size: 2em;
-    font-family: 'Playfair Display';
-    color: black;
+	font-size: 2em;
+	font-family: 'ariah';
+	color: black;
+	font-weight: 300;
+
 }
 
 /*!  homepage structure  */
@@ -69,17 +77,17 @@ video {
 }
 
 .intro {
-  height: 75vh;
+	height: 75vh;
 	position: relative;
 	text-align: center;
-  margin-top:50vh;
+	margin-top: 50vh;
 }
 
 .description {
-  height: 50vh;
+	height: 50vh;
 	position: relative;
 	text-align: center;
-  margin-bottom:30vh;
+	margin-bottom: 30vh;
 }
 
 #pattern {
@@ -89,34 +97,38 @@ video {
 	background-image: url(../img/rompighiaccio.jpg);
 }
 
+/*
 .fisso-destra {
-    position: fixed;
-    padding: 1em;
-    max-width: 12.5em;
-    top: 0;
-    right: 0;
-    text-align: right;
-    width:100px;
-    height: 100px;
-    background-image: url(../img/rompighiaccio.jpg);
+	position: fixed;
+	padding: 1em;
+	max-width: 12.5em;
+	top: 0;
+	right: 0;
+	text-align: right;
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/rompighiaccio.jpg);
 }
+*/
 
 .fisso-sinistra {
-    position: fixed;
-    padding: 1em;
-    max-width: 20em;
-    top: 1em;
-    left: 1em;
-    text-align: left;
+	position: fixed;
+	padding: 0em;
+	padding-left: 2em;
+	padding-top: 2em;
+	max-width: 20em;
+	top: 1em;
+	left: 1em;
+	text-align: left;
 }
 
 .foto-tela {
-    padding: 1em;
-    top: 0;
-    right: 0;
-    width: 100vh;
-    height: auto;
-    background-image: url(../img/tela.jpg);
+	padding: 1em;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: auto;
+	background-image: url(../img/tela.jpg);
 }
 
 
@@ -124,47 +136,89 @@ video {
 
 #background_lightblue {
 	background-color: #DBF0F4;
-  padding-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#background_white {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#background_darkblue {
+	background-color: #DBF0F4;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #headline {
-	background-color: #DBF0F4;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
 #primocap {
-	background-color: #DBF0F4;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
 /*! ------------------------------------------ TEXT --------------------------------------------- */
 
-
 /*! Testi affiancati */
 
 .text_paragraph {
 	font-family: 'Roboto Slab';
 	text-align: justify;
-  font-weight: 100;
+	font-weight: 60;
 	color: #DBF0F4;
 	font-size: 2vh;
-	line-height: 1.7;
+	line-height: 1.8;
 }
 
 .paragrafo {
-	font-family: 'Roboto Slab';
+	font-family: 'Playfair Display';
 	text-align: left;
-  font-weight: 100;
 	color: black;
-	font-size: 1.2vh;
-	line-height: 1.7;
-  margin: 30px;
-  column-count: 2;
-  column-gap: 80px;
-  padding-bottom: 30px;
+	font-size: 1.7vh;
+	line-height: 3vh;
+	margin: 2vh;
+	margin-left: 0vh;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 7vh;
+	column-gap: 7vh;
+	padding-bottom: 2vh;
+}
+
+.space {
+	padding-left: 3em;
+	padding-right: 3em;
+	text-align: left;
+	margin: 0px;
+}
+
+.par {
+	font-size: 2em;
+	font-family: 'Helvetica';
+	font-size: 1.7vh;
+	color: black;
+	font-weight: 300;
+}
+
+.legenda {
+	font-family: 'Helvetica';
+	text-align: left;
+	color: dimgray;
+	font-size: 1.4vh;
+	line-height: 2.7vh;
+	margin: 2vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+
+}
+
+.azzurro {
+	color: #DBF0F4;
 }
 
 
@@ -173,63 +227,66 @@ video {
 /*! --------------------------------- POP UP --------------------------------- */
 
 .popover-body {
-    padding-left: 10px;
-	padding-right:10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: left;
-	margin:auto;
-    color: #011AC2;
-    border: white;
+	margin: auto;
+	color: #011AC2;
+	border: white;
 
 }
 
 .pop_appareance_white {
-  font-family: 'Rajdhani', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
 	font-style: bold;
-    color: #011ac2;
+	color: #011ac2;
 	background: white;
 	border: none;
 	border-radius: 0;
 	line-height: 0.4;
-    cursor: pointer;
+	cursor: pointer;
 
 }
+
 .pop_appareance_white:hover {
-  font-family: 'Rajdhani', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
-    color: #011ac2;
+	color: #011ac2;
 	border: none;
 	border-radius: 0;
 	line-height: 0.4;
-    cursor: pointer;
-    opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 
 .pop_appareance_blue {
-    font-family: 'Rajdhani', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
 	font-style: bold;
-    color: white;
+	color: white;
 	border: none;
-    background: #011ac2;
+	background: #011ac2;
 	border-radius: 0;
 	line-height: 0.4;
-    transition: none;
-    cursor: pointer;
+	-webkit-transition: none;
+	transition: none;
+	cursor: pointer;
 }
 
 .pop_appareance_blue:hover {
-    font-family: 'Rajdhani', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
 	font-style: bold;
-    color: white;
+	color: white;
 	border: none;
-    background: #011ac2;
+	background: #011ac2;
 	border-radius: 0;
 	line-height: 0.4;
-    transition: none;
-    cursor: pointer;
-    opacity: 1
+	-webkit-transition: none;
+	transition: none;
+	cursor: pointer;
+	opacity: 1
 }
 
 
@@ -247,4 +304,96 @@ video {
 	color: white;
 	margin-right: 40px;
 	margin-left: 40px;
+}
+
+
+
+
+.tela {
+	width: 100%;
+}
+
+.container {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+/*! ------------------------------------------ VIZ svg ------------------------------------------ */
+
+/*
+.foto-tela {
+	padding: 1em;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: auto;
+	background-image: url(../img/iceline.png);
+}
+*/
+
+#iceline {
+	width: 90%;
+}
+
+
+.st0 {
+	fill: #D3FC8D;
+}
+
+.st1 {
+	fill: #BEE3F4;
+}
+
+.st2 {
+	fill: #94F5E6;
+}
+
+.st3 {
+	fill: #94F8A1;
+}
+
+.st4 {
+	fill: none;
+	stroke: #D3D3D3;
+	stroke-width: 0.3;
+}
+
+.st5 {
+	fill: none;
+	stroke: #D3D3D3;
+	stroke-width: 0.3;
+	stroke-dasharray: 2, 3;
+}
+
+.st6 {
+	fill: none;
+}
+
+.st7 {
+	font-family: 'Helvetica-Light';
+}
+
+.st8 {
+	font-size: 12px;
+}
+
+.st9 {
+	font-size: 10px;
+}
+
+.st10 {
+	fill: none;
+	stroke: #000000;
+	stroke-width: 0.6;
+}
+
+.st11 {
+	font-family: 'Helvetica';
+}
+
+.st12 {
+	font-size: 8px;
 }
