@@ -3,6 +3,15 @@
 	src: url(../assets/font/ariah.ttf);
 }
 
+#beginning {
+
+}
+
+a:link {
+	text-decoration: none;
+	cursor: n-resize;
+}
+
 /*! ------------------------------------------ VIDEO ------------------------------------------ */
 
 video {
@@ -39,14 +48,14 @@ video {
 }
 
 .title_super {
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'ariah';
 	font-size: 150px;
 	font-weight: 200;
 	color: white;
 }
 
 .subtitle_super {
-	font-family: 'Helvetica';
+	font-family: 'Playfair Display', sans-serif;
 	font-weight: 100;
 	font-size: 24px;
 	color: white;
