@@ -1,3 +1,8 @@
+/*! avoid stroke when click play button */
+* {
+	outline: none;
+}
+
 @font-face {
 	font-family: ariah;
 	src: url(../assets/font/ariah.ttf);
@@ -49,8 +54,8 @@ video {
 
 .title_super {
 	font-family: 'ariah';
-	font-size: 150px;
-	font-weight: 200;
+	font-size: 9vh;
+	line-height: 1em;
 	color: white;
 }
 
@@ -80,23 +85,28 @@ video {
 /*!  homepage structure  */
 
 .homepage {
-	height: 190vh;
+    height: 190vh;
 	position: relative;
 	text-align: center;
+/*	background-color: pink;*/
 }
 
 .intro {
-	height: 75vh;
+/*	height: 75vh;
 	position: relative;
 	text-align: center;
 	margin-top: 50vh;
+*/
+	background-color: yellow;
 }
 
 .description {
 	height: 50vh;
 	position: relative;
-	text-align: center;
-	margin-bottom: 30vh;
+/*	text-align: center;*/
+/*	margin-bottom: 30vh;*/
+	margin-top: 45vh;
+	background-color: green;
 }
 
 #pattern {
@@ -129,6 +139,17 @@ video {
 	top: 1em;
 	left: 1em;
 	text-align: left;
+}
+
+.fisso-destra {
+	position: fixed;
+	padding: 0em;
+	padding-right: 2em;
+	padding-top: 2em;
+	max-width: 20em;
+	top: 1em;
+	right: 1em;
+	text-align: right;
 }
 
 .foto-tela {
@@ -194,8 +215,8 @@ video {
 	margin-left: 0vh;
 	-webkit-column-count: 2;
 	column-count: 2;
-	-webkit-column-gap: 7vh;
-	column-gap: 7vh;
+	-webkit-column-gap: 10vh;
+	column-gap: 10vh;
 	padding-bottom: 2vh;
 }
 
@@ -220,8 +241,8 @@ video {
 	color: dimgray;
 	font-size: 1.4vh;
 	line-height: 2.7vh;
-	margin: 2vh;
-	margin-left: 0vh;
+	margin: 0vh;
+	margin-left: 2vh;
 	padding-bottom: 0vh;
 
 }
