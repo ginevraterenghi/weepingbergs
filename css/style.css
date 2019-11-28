@@ -32,10 +32,12 @@ a:hover {
 	color: #b9cdd8;
 }
 
+
+
 a:link {
 	text-decoration: none;
 	cursor:pointer;
-	color: #546c76;
+	color: #546c76;	
 }
 
 /*! ------------------------------------------ VIDEO ------------------------------------------ */
@@ -505,7 +507,7 @@ font-family: 'Playfair Display';
 .text-data {
 	font-family: 'Helvetica';
 	text-align: left;
-	color: #dce8f8;
+	color: #b9cdd8;
 	font-size: 1.5vh;
 	line-height: 0vh;
 	margin-top: 2vh;
