@@ -12,10 +12,30 @@
 
 }
 
+a {
+	text-decoration: none;
+	cursor:pointer;
+	color: #2a3b43;
+	font-family: 'Playfair Display';
+	font-size: 1.7vh;
+}
+
+.version2 {
+	text-decoration: none;
+	cursor:pointer;
+	color: #2a3b43;
+	font-family: 'Helvetica';
+	font-size: 1.5vh;
+}
+
+a:hover {
+	color: #b9cdd8;
+}
+
 a:link {
 	text-decoration: none;
-	cursor: n-resize;
-	color: #d3fc8d;
+	cursor:pointer;
+	color: #546c76;
 }
 
 /*! ------------------------------------------ VIDEO ------------------------------------------ */
@@ -72,15 +92,37 @@ video {
 .testo-fisso {
 	font-style: "Roboto Slab";
 	font-size: 0.8em;
-	color: #DBF0F4;
+	color: #d3fc8d;
+	padding-left: 10vh;
 }
+
+/*
+
+font-family: 'Playfair Display';
+	text-align: left;
+	color: black;
+	font-size: 1.7vh;
+	line-height: 3vh;
+	margin: 2vh;
+	margin-left: 0vh;
+	padding-bottom: 2vh;
+	padding-left: 10vh;
+*/
+
+
 
 .cap1 {
 	font-size: 3em;
 	font-family: 'ariah';
 	color: #d3fc8d;
 	font-weight: 300;
+}
 
+.cap2 {
+	font-size: 2em;
+	font-family: 'ariah';
+	color: #dce8f8;
+	font-weight: 200;
 }
 
 /*!  homepage structure  */
@@ -118,24 +160,11 @@ video {
 	background-image: url(../img/rompighiaccio.jpg);
 }
 
-/*
-.fisso-destra {
-	position: fixed;
-	padding: 1em;
-	max-width: 12.5em;
-	top: 0;
-	right: 0;
-	text-align: right;
-	width: 100px;
-	height: 100px;
-	background-image: url(../img/rompighiaccio.jpg);
-}
-*/
 
 .fisso-sinistra {
 	position: fixed;
 	padding: 0em;
-	padding-left: 2em;
+	padding-left: 0em;
 	padding-top: 2em;
 	max-width: 20em;
 	top: 1em;
@@ -214,6 +243,16 @@ video {
 	margin-top: 2vh;
 }
 
+.text_paragraph_main {
+	font-family: 'Helvetica';
+	text-align: justify;
+	font-weight: 100;
+	color: #2a3b43;
+	font-size: 2vh;
+	line-height: 1.8;
+	margin-top: 2vh;
+}
+
 .text_data {
 	font-family: 'Roboto Slab';
 	text-align: justify;
@@ -254,11 +293,23 @@ video {
 	text-align: left;
 	color: black;
 	font-size: 1.7vh;
-	line-height: 3vh;
+	line-height: 3.2vh;
 	margin: 2vh;
 	margin-left: 0vh;
 	padding-bottom: 2vh;
-	padding-left: 3vh;
+	padding-left: 10vh;
+}
+
+.cit {
+	font-family: 'Helvetica';
+	text-align: left;
+	color: black;
+	font-size: 1.7vh;
+	line-height: 3.2vh;
+	margin: 2vh;
+	margin-left: 0vh;
+	padding-bottom: 2vh;
+	padding-left: 10vh;
 }
 
 .paragrafo3 {
@@ -272,7 +323,7 @@ video {
 	margin-top: 1vh;
 	padding-bottom: 2vh;
 	padding-left: 0vh;
-	padding-right: 3vh;
+	padding-right: 10vh;
 }
 
 .paragrafoSpecial {
@@ -295,9 +346,9 @@ video {
 }
 
 .space {
-	padding-left: 3em;
-	padding-right: 3em;
-	text-align: center;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: left;
 	margin: 0px;
 }
 
@@ -426,15 +477,100 @@ video {
 	background: #546c76;
 	padding-top: 2vh;
 	padding-bottom: 4vh;
-	padding-left: 3em;
+	padding-left: 0em;
 }
 
 
+.text-data {
+	font-family: 'Helvetica';
+	text-align: left;
+	color: #dce8f8;
+	font-size: 1.5vh;
+	line-height: 0vh;
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 1.3vh;
+	padding-left: 0vh;
+}
+
+.text-biblio {
+	font-family: 'Playfair Display';
+	text-align: left;
+	color: #dce8f8;
+	font-size: 1.5vh;
+	line-height: 0vh;
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 1.3vh;
+	padding-left: 10vh;
+}
+
+.text-footer {
+	font-family: 'Playfair Display';
+	text-align: left;
+	color: #92a8b3;
+	font-size: 1.2vh;
+	line-height: 2.3vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 0vh;
+	padding-left: 10vh;
+}
+
+.text-footer2 {
+	font-family: 'Playfair Display';
+	text-align: left;
+	color: #2a3b43;
+	font-size: 1.5vh;
+	line-height: 0vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 0vh;
+	padding-left: 0vh;
+}
+
+.text-footer3 {
+	font-family: 'Playfair Display';
+	text-align: left;
+	color: #546c76;
+	font-size: 1.3vh;
+	line-height: 2.3vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 0vh;
+	padding-left: 14vh;
+}
+
+.text-footer4 {
+	font-family: 'Playfair Display';
+	text-align: left;
+	color: #546c76;
+	font-size: 1.3vh;
+	line-height: 2.3vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 0vh;
+	padding-left: 0vh;
+}
+
 #fondo {
 	background: #2a3b43;
-	padding-top: 2vh;
+	padding-top: 4vh;
 	padding-bottom: 4vh;
-	padding-left: 3em;
+	padding-left: 0em;	
+	margin-left: 0em;	
 }
 
 /*! media */
@@ -449,10 +585,35 @@ video {
 .infoTitle {
 	margin-top: 2vh;
 	margin-bottom: 2vh;
+	margin-left: 0vh;
+	padding-left: 10vh;
 	font-family: "Playfair Display, sans-serif";
 	font-weight: 200;
 	font-size: 0.8rem;
 	color: #DBF0F4;
+}
+
+
+
+/*
+font-family: 'Playfair Display';
+	text-align: left;
+	color: #dce8f8;
+	font-size: 1.5vh;
+	line-height: 0vh;
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+	margin-left: 0vh;
+	padding-bottom: 0vh;
+	padding-top: 1.3vh;
+	padding-left: 10vh;
+
+*/
+
+
+mark {
+	
+	background-color: #d3fc8d;
 }
 
 .info {
@@ -461,7 +622,7 @@ video {
 	font-family: "Playfair Display, sans-serif";
 	font-weight: 300;
 	font-size: 0.8rem;
-	color: #DBF0F4;
+	color: #d3fc8d;
 }
 
 .info2 {
