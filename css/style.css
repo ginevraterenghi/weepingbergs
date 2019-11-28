@@ -121,7 +121,28 @@ font-family: 'Playfair Display';
 .cap2 {
 	font-size: 2em;
 	font-family: 'ariah';
-	color: #dce8f8;
+	color: #b9cdd8;
+	font-weight: 200;
+}
+
+.cap3 {
+	font-size: 2em;
+	font-family: 'ariah';
+	color: #92a8b3;
+	font-weight: 200;
+}
+
+.cap4 {
+	font-size: 2em;
+	font-family: 'ariah';
+	color: #546c76;
+	font-weight: 200;
+}
+
+.cap5 {
+	font-size: 2em;
+	font-family: 'ariah';
+	color: #2a3b43;
 	font-weight: 200;
 }
 
