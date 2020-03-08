@@ -15,7 +15,7 @@
 a {
 	text-decoration: none;
 	cursor:pointer;
-	color: #2a3b43;
+	color: #b9cdd8;
 	font-family: 'Playfair Display';
 	font-size: 1.7vh;
 }
@@ -28,9 +28,15 @@ a {
 	font-size: 1.5vh;
 }
 
+
 a:hover {
 	color: #b9cdd8;
 }
+
+a:visited {
+	color: #2a3b43;
+}
+
 
 
 
